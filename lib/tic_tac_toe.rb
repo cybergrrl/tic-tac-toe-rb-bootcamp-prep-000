@@ -86,7 +86,7 @@ def won?(board)
     end
   end
   return false
-end  
+end
 
 def full?(board)
   board.all? { |e| (e == "X" || e == "O") }
